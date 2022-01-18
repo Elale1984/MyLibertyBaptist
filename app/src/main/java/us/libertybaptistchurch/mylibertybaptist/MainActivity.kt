@@ -36,3 +36,8 @@ fun DefaultPreview() {
         Greeting("Android")
     }
 }
+
+@Composable
+fun MyScaffold() {
+    val viewModel: MainViewModel = viewModel()
+}
